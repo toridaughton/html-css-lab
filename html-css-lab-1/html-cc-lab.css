@@ -1,0 +1,93 @@
+* {
+    color: slategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1522140243784-a1df85e3c0f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80");
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100vw;
+    height: 25vh;
+    background-color: bisque;
+}
+
+.Header-Title {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 65px;
+    /* text-align: justify; */
+    font-size: 60px;
+
+}
+
+.Login-section {
+   position: absolute;
+   right: 20px;
+   margin-top: 65px;
+}
+
+.nav-bar {
+  bottom: 0px;
+  display: flex;
+  height: 22vh;
+  width: 55vw;
+  margin-left: 850px;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  font-size: 25px;
+} 
+
+#streamers-nav {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(78, 78, 236);
+}
+
+button {
+    color: black;
+}
+
+
+/* div {
+    display: flex;
+    align-items:center;    
+} */
+
+.streamers {
+    margin-top: 50px;
+    margin-left: 250px;
+    position: relative;
+    background-color: bisque;
+    height: 30vh;
+    width: 75vw;
+}
+
+.streamer-photos {
+    height: 25vh;
+    width: 25vh;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.markiplier-section {
+    margin-top: 30px;
+    position: relative;
+    background-color: bisque;
+    height: 30vh;
+    width: 75vw;
+}
+
+.pewdiepie-section {
+    margin-top: 30px;
+    position: relative;
+    background-color: bisque;
+    height: 30vh;
+    width: 75vw;
+}
+}
+
+/* #pewdiepie {
+    margin-left: 30;
+} */
